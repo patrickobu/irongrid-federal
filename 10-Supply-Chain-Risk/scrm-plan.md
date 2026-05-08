@@ -5,11 +5,14 @@ Version: 1.0
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Reference: NIST SP 800-161 Rev 1 | NIST SP 800-53 Rev 5 (SR family)
+
 ---
 1. Purpose
 This Supply Chain Risk Management (SCRM) Plan establishes the strategy, processes, and controls for identifying, assessing, and mitigating cybersecurity risks introduced through the IGFMS supply chain. Given that IGFMS components include ICS/SCADA hardware sourced from multiple vendors and deployed in a national critical infrastructure monitoring role, supply chain integrity is a fundamental security requirement.
 ---
+
 ![Roles and Responsibilities Matrix](../diagrams/08-roles-matrix.png)
+
 ---
 2. Supply Chain Risk Overview
 IGFMS faces unique supply chain risks due to its role in critical infrastructure monitoring. Adversaries motivated to disrupt U.S. power grid and water system monitoring have strong incentives to compromise IGFMS through supply chain vectors including hardware implants in OT components, firmware backdoors introduced during manufacturing, counterfeit components substituted in the supply chain, and compromised software updates from legitimate vendors.
