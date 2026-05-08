@@ -5,8 +5,10 @@ Version: 2.0
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Reference: NIST SP 800-61 Rev 2 | NIST SP 800-82 Rev 3
+
 ---
 ![IGFMS Incident Response Workflow](../diagrams/10-ir-workflow.png)
+
 ---
 1. Purpose and Scope
 This Incident Response Plan (IRP) establishes the procedures, roles, and responsibilities for detecting, responding to, and recovering from cybersecurity incidents affecting the IronGrid Federal Monitoring System (IGFMS). Given IGFMS's role in monitoring national critical infrastructure, all incidents must be handled with the highest urgency and in accordance with federal incident reporting requirements.
@@ -102,6 +104,6 @@ Check OT segment for any signs of pre-ransomware reconnaissance activity
 7. Plan Maintenance
 This IRP is reviewed and updated annually and after every significant incident. The ISSO is responsible for maintaining currency of this document. All IR team members must review the plan annually and acknowledge receipt.
 Review	Date	Reviewer
-Annual review	January 2025	[Your Name], ISSO
-Post-incident update	As needed	[Your Name], ISSO
-Next scheduled review	January 2026	[Your Name], ISSO
+Annual review	January 2025	[patrickobu], ISSO
+Post-incident update	As needed	[patrickobu], ISSO
+Next scheduled review	January 2026	[patrickobu], ISSO
