@@ -6,6 +6,8 @@ Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Prepared By: Security Control Assessor (SCA) — CyberAssure Federal LLC (fictional)
 Reference: NIST SP 800-53A Rev 5 | NIST SP 800-37 Rev 2
+
+
 ---
 1. Purpose and Scope
 This Security Assessment Plan (SAP) defines the approach, schedule, and methodology for conducting the annual security control assessment of the IronGrid Federal Monitoring System (IGFMS). The assessment evaluates the extent to which security controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for IGFMS.
