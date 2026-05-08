@@ -6,6 +6,7 @@ Version: 1.0
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Reference: NIST SP 800-53 Rev 5 — SR Control Family | NIST SP 800-161 Rev 1
+
 ---
 1. Overview
 Supply chain risk management is a priority security concern for IGFMS due to the potential for adversaries to compromise national critical infrastructure monitoring capability through hardware implants, firmware backdoors, or counterfeit components introduced during the manufacturing and delivery process. This document describes IGFMS implementation of the SR control family.
