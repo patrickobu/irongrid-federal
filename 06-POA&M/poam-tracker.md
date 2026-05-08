@@ -6,6 +6,7 @@ Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Reporting Period: Q1 2025  
 Prepared By: ISSO, IronGrid Federal Program Office (fictional)  
 Last Updated: January 2025
+
 ---
 1. Purpose
 This Plan of Action & Milestones (POA&M) documents all known security weaknesses, deficiencies, and vulnerabilities identified in the IronGrid Federal Monitoring System (IGFMS) through security assessments, vulnerability scans, audits, and continuous monitoring activities.
@@ -26,6 +27,7 @@ Low	2	3	5	10
 Total	10	12	9	31
 ---
 3. Active POA&M Items
+
 ---
 POA&M-001 | CRITICAL | OPEN
 Field	Details
@@ -40,6 +42,7 @@ Scheduled Completion	March 31, 2025
 Status	OPEN — Vendor patch testing in isolated lab environment
 Milestones	(1) Vendor patch validated in lab — Jan 15, 2025 ✅ / (2) Staged deployment to 10% of sensors — Feb 15, 2025 🔄 / (3) Full deployment complete — Mar 31, 2025 ⏳
 Compensating Controls	Network segmentation enforced; IDS signatures deployed; 24/7 monitoring increased on affected segments
+
 ---
 POA&M-002 | CRITICAL | IN PROGRESS
 Field	Details
@@ -54,6 +57,7 @@ Scheduled Completion	February 28, 2025
 Status	IN PROGRESS — PIV card enrollment underway for 18 of 23 accounts
 Milestones	(1) IAM policy updated — Nov 2024 ✅ / (2) PIV cards issued to 18 admins — Jan 2025 ✅ / (3) Remaining 5 accounts (contractors) — Feb 28, 2025 🔄
 Compensating Controls	Enhanced logging on all privileged sessions; session timeouts reduced to 15 minutes; privileged access workstations (PAWs) enforced
+
 ---
 POA&M-003 | CRITICAL | IN PROGRESS
 Field	Details
@@ -67,6 +71,7 @@ Scheduled Completion	January 31, 2025
 Status	IN PROGRESS — Tabletop exercise scheduled for January 28, 2025
 Milestones	(1) Exercise scenario developed — Jan 5, 2025 ✅ / (2) Participants confirmed — Jan 10, 2025 ✅ / (3) Tabletop exercise conducted — Jan 28, 2025 🔄 / (4) After-Action Report complete — Jan 31, 2025 ⏳
 Compensating Controls	IR team on elevated readiness; updated contact lists distributed
+
 ---
 POA&M-004 | HIGH | OPEN
 Field	Details
@@ -80,6 +85,7 @@ Scheduled Completion	January 15, 2025
 Status	OPEN — Configuration change ticket submitted, pending change control board (CCB) approval
 Milestones	(1) CCB approval — Jan 10, 2025 🔄 / (2) Syslog reconfigured and validated — Jan 15, 2025 ⏳
 Compensating Controls	Manual log review of Historian DB performed weekly; local log retention increased to 180 days
+
 ---
 POA&M-005 | HIGH | OPEN
 Field	Details
@@ -93,6 +99,7 @@ Scheduled Completion	March 15, 2025
 Status	OPEN — Vendor questionnaires sent; 2 of 4 vendors responded
 Milestones	(1) Vendor questionnaires sent — Nov 2024 ✅ / (2) 4 assessments complete — Feb 28, 2025 🔄 / (3) Risk findings documented in SCRM Plan — Mar 15, 2025 ⏳
 Compensating Controls	Increased physical inspection of hardware deliveries; SBOM (Software Bill of Materials) requested from all vendors
+
 ---
 POA&M-006 | HIGH | OPEN
 Field	Details
@@ -106,6 +113,7 @@ Scheduled Completion	January 10, 2025
 Status	OPEN — Accounts identified; pending HR confirmation of termination dates
 Milestones	(1) Accounts suspended pending review — Dec 2024 ✅ / (2) HR confirmation received — Jan 7, 2025 🔄 / (3) Accounts permanently disabled/removed — Jan 10, 2025 ⏳
 Compensating Controls	All 12 accounts suspended (not deleted) pending confirmation; privileged access revoked immediately
+
 ---
 4. Recently Closed POA&M Items
 ID	Weakness Summary	Control	Severity	Closed Date
