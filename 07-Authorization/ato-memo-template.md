@@ -4,6 +4,7 @@ Document Type: ATO Decision Memorandum
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: May 15, 2025
 System ID: DHS-CISA-IGFMS-001 (fictional)
+
 ---
 ```
 MEMORANDUM FOR: James A. Harlow, System Owner
@@ -25,7 +26,9 @@ ATO Type: Authority to Operate with Conditions
 ATO Start Date: May 15, 2025
 ATO Expiration Date: May 14, 2028 (3 years)
 Next Scheduled Assessment: April 2026
+
 ---
+
 ![NIST RMF Lifecycle](../diagrams/02-rmf-lifecycle.png)
 ---
 2. Basis for Decision
@@ -78,7 +81,7 @@ Date: May 14, 2025
 
 
 ___________________________________
-[Your Name]
+[patrickobu]
 Information System Security Officer (ISSO)
 Date: May 13, 2025
 
