@@ -8,6 +8,7 @@ Prepared By: ISSO, IronGrid Federal Program Office (fictional)
 Reference: NIST SP 800-137, NIST SP 800-53 Rev 5 (CA-7), OMB Memorandum M-14-03
 
 ---
+
 1. Purpose
 This Continuous Monitoring (ConMon) Plan establishes the strategy, processes, and schedule for ongoing monitoring of the security posture of the IronGrid Federal Monitoring System (IGFMS). It ensures that security controls remain effective over time and that risks are identified and remediated in a timely manner, maintaining the system's Authority to Operate (ATO).
 ---
