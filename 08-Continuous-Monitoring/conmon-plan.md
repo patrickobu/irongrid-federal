@@ -6,6 +6,7 @@ Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: 2025  
 Prepared By: ISSO, IronGrid Federal Program Office (fictional)  
 Reference: NIST SP 800-137, NIST SP 800-53 Rev 5 (CA-7), OMB Memorandum M-14-03
+
 ---
 1. Purpose
 This Continuous Monitoring (ConMon) Plan establishes the strategy, processes, and schedule for ongoing monitoring of the security posture of the IronGrid Federal Monitoring System (IGFMS). It ensures that security controls remain effective over time and that risks are identified and remediated in a timely manner, maintaining the system's Authority to Operate (ATO).
@@ -19,6 +20,7 @@ Identify vulnerabilities, misconfigurations, and deviations from baseline prompt
 Enable risk-informed decisions by the Authorizing Official (AO)
 Support timely POA&M updates and remediation tracking
 Provide monthly security status reporting to the AO and ISSM
+
 ---
 3. Monitoring Activities & Frequencies
 3.1 Continuous (Real-Time / Daily)
@@ -64,6 +66,7 @@ System Security Plan (SSP) review & update	SSP document	ISSO
 Incident Response Plan (IRP) tabletop	Full-scale tabletop exercise	IR Team / ISSO
 Privacy Threshold Analysis (PTA) update	PTA document	Privacy Officer
 Disaster Recovery / COOP test	DR exercise	IT Operations
+
 ---
 4. Security Metrics
 The following key security metrics are tracked and reported monthly to the AO:
@@ -78,6 +81,7 @@ Mean Time to Detect (MTTD) security incidents	< 1 hour	Monthly
 Mean Time to Respond (MTTR) to critical incidents	< 4 hours	Monthly
 User security awareness training completion	100%	Quarterly
 Unauthorized configuration changes detected	0	Monthly
+
 ---
 5. Vulnerability Management
 5.1 Scan Schedule
@@ -93,12 +97,14 @@ High (CVSS 7.0–8.9)	30 calendar days
 Moderate (CVSS 4.0–6.9)	90 calendar days
 Low (CVSS 0.1–3.9)	180 calendar days
 > **OT Exception:** For OT/ICS systems where patching requires operational downtime, a risk acceptance memo signed by the AO is required along with compensating controls documentation.
+
 ---
 6. Configuration Management Monitoring
 All IT systems must comply with applicable DISA STIGs and CIS Benchmarks
 SCAP-compliant scanning performed monthly; deviations tracked in POA&M
 All configuration changes must go through the Change Control Board (CCB) process
 Unauthorized configuration changes detected via FIM trigger immediate security incident response
+
 ---
 7. Reporting
 7.1 Monthly ConMon Report Contents
@@ -117,6 +123,7 @@ Monthly ConMon Report	AO, ISSM, ISSO, System Owner	Monthly
 Quarterly POA&M	AO, ISSM	Quarterly
 Annual SAR	AO, ISSM, Program Office	Annually
 Incident Reports	AO, ISSM, US-CERT	As needed
+
 ---
 8. Roles & Responsibilities
 Role	ConMon Responsibilities
@@ -127,6 +134,7 @@ SOC / Security Operations	24/7 monitoring; incident detection and initial respon
 Systems Administrators	Patch management; configuration compliance; FIM management
 OT Security Team	OT/ICS vulnerability management; ICS-specific monitoring
 IAM Team	Account lifecycle management; privileged access monitoring
+
 ---
 9. References
 NIST SP 800-137 — Information Security Continuous Monitoring (ISCM)
