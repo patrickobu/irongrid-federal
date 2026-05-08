@@ -6,6 +6,7 @@ Version: 1.0
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Reference: NIST SP 800-53 Rev 5 — SI Control Family | NIST SP 800-82 Rev 3
+
 ---
 1. Overview
 The System and Information Integrity control family ensures IGFMS software, firmware, and data remain free from unauthorized modification, and that security threats are detected and addressed promptly. For a critical infrastructure monitoring system, integrity is paramount — manipulated sensor data or compromised monitoring software could cause CISA operators to act on false information, enabling adversaries to mask real attacks against the power grid or water systems.
