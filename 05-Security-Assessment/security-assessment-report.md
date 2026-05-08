@@ -32,7 +32,9 @@ Description: 847 ICS/SCADA sensors across 12 power substations are running firmw
 Risk: An adversary exploiting this vulnerability could gain unauthorized control of SCADA sensors, potentially disrupting power grid monitoring and creating false sensor readings.
 Recommendation: Complete firmware update to v2.4.1 across all affected sensors by March 31, 2025 per POAM-001 schedule.
 Status: Active — POAM-001 in progress
+
 ---
+
 Finding SAR-002 | CRITICAL
 Control: IA-2(1) (MFA for Privileged Accounts)
 Title: MFA not enforced for 5 privileged contractor accounts
@@ -40,6 +42,7 @@ Description: Of 23 privileged administrator accounts, 5 contractor accounts have
 Risk: Credential theft or brute force attack against these accounts could enable unauthorized privileged access to the IGFMS Core Processing Engine.
 Recommendation: Complete PIV enrollment for remaining 5 contractor accounts by February 28, 2025 per POAM-002.
 Status: Active — POAM-002 in progress
+
 ---
 Finding SAR-003 | HIGH
 Control: AU-2 (Event Logging), AU-6 (Audit Record Review)
@@ -48,6 +51,7 @@ Description: A misconfigured syslog agent on the Historian Database servers has 
 Risk: Security events on the Historian Database during this period may not have been detected or investigated. Forensic reconstruction of the period is limited to local logs.
 Recommendation: Reconfigure syslog agent and validate log forwarding by January 15, 2025 per POAM-004.
 Status: Active — POAM-004 in progress
+
 ---
 Finding SAR-004 | HIGH
 Control: SR-3 (Supply Chain Controls), SR-6 (Supplier Assessments)
@@ -56,6 +60,7 @@ Description: IGFMS relies on 7 critical third-party hardware vendors for OT comp
 Risk: Unassessed vendors may introduce hardware or firmware with embedded vulnerabilities, counterfeit components, or supply chain compromise vectors.
 Recommendation: Complete all 4 vendor assessments by March 15, 2025 per POAM-005.
 Status: Active — POAM-005 in progress
+
 ---
 Finding SAR-005 | MODERATE
 Control: IR-3 (Incident Response Testing)
@@ -64,6 +69,7 @@ Description: NIST 800-53 Rev 5 HIGH baseline requires annual IR plan testing. Th
 Risk: IR team may be unprepared for current threat scenarios and new system components added since the last exercise.
 Recommendation: Conduct tabletop exercise by January 31, 2025 per POAM-003.
 Status: Active — exercise scheduled January 28, 2025
+
 ---
 4. Strengths Identified
 The assessment identified the following security strengths demonstrating IGFMS security program maturity:
