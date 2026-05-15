@@ -6,9 +6,11 @@ Version: 1.0
 Classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) (fictional)
 Date: January 2025
 Reference: NIST SP 800-53 Rev 5 — IR Control Family | NIST SP 800-61 Rev 2
+
 ---
 1. Overview
 The Incident Response control family ensures IGFMS can effectively detect, contain, eradicate, and recover from cybersecurity incidents. Given IGFMS's role in national critical infrastructure monitoring, incident response capability is mission-critical — a delayed or ineffective response to an incident targeting IGFMS could blind CISA to active attacks against the power grid or water systems.
+
 ---
 2. IR-2 — Incident Response Training
 Implementation
@@ -20,6 +22,7 @@ ISSM	Major incident coordination + AO liaison	Annual	Nov 2024
 OT Administrators	OT-specific IR + safe mode + vendor coordination	Annual	Sep 2024
 Analyst staff	Security awareness + incident reporting	Annual	Ongoing
 Training includes classroom instruction, tabletop exercises, and live-fire simulations in the IGFMS test environment. OT-specific training includes scenarios covering ransomware targeting ICS, sensor data manipulation, and data diode bypass attempts.
+
 ---
 3. IR-3 — Incident Response Testing
 Implementation
@@ -30,6 +33,7 @@ Functional exercise (partial simulation)	Annual	March 2024	March 2025
 Full-scale simulation	Every 2 years	2022	2025
 The January 28, 2025 tabletop exercise will simulate a ransomware attack targeting the IGFMS IT segment with attempted lateral movement to the OT network. The scenario incorporates TTPs from recent ICS-targeted ransomware groups including Volt Typhoon-style living-off-the-land techniques.
 After-action reporting: Every IR test produces a formal After-Action Report documenting gaps identified, lessons learned, and improvement actions tracked in the POA&M.
+
 ---
 4. IR-4 — Incident Handling
 Implementation
@@ -44,6 +48,7 @@ OT anomaly	IGFMS core engine alert	Field operator notification + SOC escalation
 Data exfiltration attempt	DLP alert	Session block + ISSO notification
 OT incident handling specifics:
 OT incidents require specialized procedures that account for the safety and availability requirements of industrial control systems. IGFMS maintains OT-specific IR procedures including protocols for coordinating with field operators, engaging ICS vendors, and determining whether safe mode activation is appropriate.
+
 ---
 5. IR-5 — Incident Monitoring
 Implementation
@@ -57,6 +62,7 @@ Containment, eradication, and recovery actions with verification steps
 Closure criteria verification and final disposition
 Link to after-action report
 Incident metrics are reported monthly in the ConMon report to the AO, including MTTD (Mean Time to Detect), MTTR (Mean Time to Respond), and incidents by priority level.
+
 ---
 6. IR-6 — Incident Reporting
 Implementation
@@ -70,6 +76,7 @@ PII/privacy breach	Within 1 hour	DHS Privacy Officer	Phone + email
 Monthly incident summary	By 5th of each month	AO, ISSM	ConMon report
 After-action report	Within 5 business days	AO, ISSM	Secure portal
 US-CERT reporting uses the standardized federal incident reporting taxonomy and severity definitions. All reports are submitted through the secure US-CERT reporting portal.
+
 ---
 7. IR-8 — Incident Response Plan
 Implementation
@@ -79,6 +86,7 @@ Within 30 days of any significant incident that reveals gaps in the plan
 When significant system changes occur that could affect IR procedures
 When inter-agency coordination procedures change
 Current plan version is 2.0, reviewed January 2025. Next scheduled review: January 2026.
+
 ---
 8. Control Implementation Summary
 Control	Status	Notes
